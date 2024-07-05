@@ -355,25 +355,24 @@ text-align: center;
 <script src="/script.js"></script>
 
 <script>
-  document.getElementById('titre').addEventListener('click', function() {
-    location.reload(); // Refresh the page
-  });
-</script>
-<script>
-  function redirigerVersWhatsApp() {
-    window.location.href = "https://wa.me/+237620114013";
-  }
-</script>
-<script>
-  document.getElementById('profile-pic').addEventListener('click', function() {
-    location.reload(); // Refresh the page
-  });
-</script>
-<script>
-  function toggleSidebar() {
-    const sidebar = document.getElementById('sidebar');
-    sidebar.classList.toggle('show');
-  }
+  window.onload = function() {
+    document.getElementById('titre').addEventListener('click', function() {
+        location.reload(); // Refresh the page
+    });
+
+    function redirigerVersWhatsApp() {
+        window.location.href = "https://wa.me/+237620114013";
+    }
+
+    document.getElementById('profile-pic').addEventListener('click', function() {
+        location.reload(); // Refresh the page
+    });
+
+    function toggleSidebar() {
+        const sidebar = document.getElementById('sidebar');
+        sidebar.classList.toggle('show');
+    }
+};
 </script>
 </body>
 </html>
