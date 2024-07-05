@@ -43,18 +43,23 @@ app.get('/helps', (req, res) => {
 
 
 // Route pour servir le fichier CSS
-app.get('/css/style.css', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'css', 'style.css'));
+app.get('/styles.css', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'css', 'styles.css'));
 });
 
 // Route pour servir le fichier JavaScript
-app.get('/js/app.js', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'js', 'app.js'));
+app.get(/script.js', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'js', 'script.js'));
 });
 
 // Route pour servir l'image de fond
-app.get('/bg.png', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'images', 'bg.png'));
+app.get('/bg.jpg', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'images', 'bg.jpg'));
+});
+
+// Route pour servir l'audio
+app.get('/kongga.mp3', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'song', 'kongga.mp3'));
 });
 
 console.log('✅Successfuly added middleware files...')
