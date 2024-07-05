@@ -60,25 +60,29 @@ router.get('/', async (req, res) => {
 
 
 
-*_Pair Code Connected by CRAZY TEAMS*
+*_Pair Code Connected by CRAZY Teams_*
 *_Made With 💜_*
-______________________________________
-╔════◇
-║ *『 WOW YOU'VE CHOSEN CRAZY MD 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
-╚════════════════════════╝
-╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* 
-║❒ *Owner:* 
-║❒ *Repo:* 
-║❒ *WaGroup:* 
-║❒ *WaChannel:* 
-║❒ *Plugins:* 
-╚════════════════════════╝
+_____________________________________
+╭━━━━━━━━━━━━━╮
+┃         *『 𝓒𝓡𝓐𝓩𝓨-𝓜𝓓』*
+┃        
+┃ _You Have Completed the First Step to Deploy a Whatsapp Bot._
+┃                      
+╰━━━━━━━━━━━━━╯
+╭━━━━━━━━━━━━━╮
+┃                      
+┃  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
+┃ꪶ ུ۪۪.   *Ytube:* _youtube.com/@kenvofc_
+┃ꪶ ུ۪۪.   *Owner:* _wa.me/237620114013
+┃ꪶ ུ۪۪.   *Repo:* _https://github.com/kenvofc/CRAZY-MD_
+┃ꪶ ུ۪۪.   *WaGroup:* _https://chat.whatsapp.com/EGWQImYJkMc2bkY51yYPxS_
+┃ꪶ ུ۪۪.   *WaChannel:* _https://whatsapp.com/channel/0029VaV3DymGE56jsC8j1M3c_
+┃ꪶ ུ۪۪.   *Plugins:* _(coming soon)_
+┃                     
+╰━━━━━━━━━━━━━╯
 _____________________________________
 
-_Don't Forget To Give Star To My Repo_`
+_Don't Forget To Give Star To My Repo_ `
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
 
