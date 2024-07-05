@@ -1,8 +1,7 @@
 const express = require('express');
 const path = require('path');
-const helmet = require('helmet');
 const morgan = require('morgan');
-const crypto = require('crypto');
+
 
 const app = express();
 const port = process.env.PORT || 6000;
@@ -13,21 +12,6 @@ console.log('✅Express Started...')
 const server = require('./crazyqr.js');
 const code = require('./pair.js');
 
-
-// Générer un nonce aléatoire
-const nonce = crypto.randomBytes(16).toString('base64');
-
-// Utiliser Helmet avec CSP et nonce
-app.use(helmet({
-  contentSecurityPolicy: {
-    useDefaults: true,
-    directives: {
-      "script-src": ["'self'", "'unsafe-inline'", `'nonce-${nonce}'`, "https://temp.staticsave.com"],
-      "style-src": ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
-      // Ajoutez d'autres directives CSP selon vos besoins
-    },
-  },
-}));
 
 // Middleware for logging HTTP requests
 app.use(morgan('combined'));
