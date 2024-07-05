@@ -41,6 +41,22 @@ app.get('/helps', (req, res) => {
   res.sendFile(path.join(__dirname, 'routes', 'helps.html'));
 });
 
+
+// Route pour servir le fichier CSS
+app.get('/css/style.css', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'css', 'style.css'));
+});
+
+// Route pour servir le fichier JavaScript
+app.get('/js/app.js', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'js', 'app.js'));
+});
+
+// Route pour servir l'image de fond
+app.get('/bg.png', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'images', 'bg.png'));
+});
+
 console.log('✅Successfuly added middleware files...')
 
 // Error handling middleware
