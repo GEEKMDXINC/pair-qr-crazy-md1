@@ -12,8 +12,6 @@ console.log('✅Express Started...')
 const server = require('./crazyqr.js');
 const code = require('./pair.js');
 
-// Middleware for security headers
-app.use(helmet());
 
 // Générer un nonce aléatoire
 const nonce = crypto.randomBytes(16).toString('base64');
