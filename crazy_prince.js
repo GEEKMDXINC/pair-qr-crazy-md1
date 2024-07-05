@@ -57,6 +57,11 @@ app.get('/bg.jpg', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'images', 'bg.jpg'));
 });
 
+// Route pour servir l'image icone du menu
+app.get('/icone.jpg', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'images', 'icone.jpg'));
+});
+
 // Route pour servir l'audio
 app.get('/kongga.mp3', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'song', 'kongga.mp3'));
