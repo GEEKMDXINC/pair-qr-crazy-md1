@@ -15,6 +15,21 @@ const code = require('./pair.js');
 // Middleware for security headers
 app.use(helmet());
 
+// Générer un nonce aléatoire
+const nonce = crypto.randomBytes(16).toString('base64');
+
+// Utiliser Helmet avec CSP et nonce
+app.use(helmet({
+  contentSecurityPolicy: {
+    useDefaults: true,
+    directives: {
+      "script-src": ["'self'", "'unsafe-inline'", `'nonce-${nonce}'`, "https://temp.staticsave.com"],
+      "style-src": ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
+      // Ajoutez d'autres directives CSP selon vos besoins
+    },
+  },
+}));
+
 // Middleware for logging HTTP requests
 app.use(morgan('combined'));
 
