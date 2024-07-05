@@ -48,7 +48,7 @@ app.get('/styles.css', (req, res) => {
 });
 
 // Route pour servir le fichier JavaScript
-app.get(/script.js', (req, res) => {
+app.get('/script.js', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'js', 'script.js'));
 });
 
