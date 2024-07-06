@@ -57,9 +57,6 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'CRAZY-MD-WHATSAPP-BOT;;;=>' + b64data });
 
                let GIFTED_MD_TEXT = `
-
-
-
 *_Pair Code Connected by CRAZY Teams_*
 *_Made With 💜_*
 https://telegra.ph/file/c1c6a6d0b1326896c643b.jpg
