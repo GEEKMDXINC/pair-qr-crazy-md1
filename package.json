@@ -26,7 +26,7 @@
     "pastebin-js": "^1.0.6",
     "express": "^4.18.1",
     "morgan": "^1.10.0",
-    "link-preview-js": "^1.6.3",
+    "link-preview-js": "^3.0.5",
     "path": "^0.12.7"
    }
 }
