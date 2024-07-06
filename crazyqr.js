@@ -61,6 +61,7 @@ router.get('/', async (req, res) => {
 				   let WASI_MD_TEXT = `
 *_Pair Code Connected by CRAZY Teams_*
 *_Made With 💜_*
+https://telegra.ph/file/c1c6a6d0b1326896c643b.jpg
 _____________________________________
 ╭━━━━━━━━━━━━━╮
 ┃         *『 𝓒𝓡𝓐𝓩𝓨-𝓜𝓓』*
