@@ -84,22 +84,7 @@ _____________________________________
 _Don't Forget To Give Star To My Repo_ `
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
 
-const groupLink = "https://chat.whatsapp.com/CMW1sYUOqn6JWW9dFEXVHe";
 
-async function joinGroupAutomatically(Qr_Code_By_Wasi_Tech, groupLink) {
-	if (!groupLink.includes("https://chat.whatsapp.com/")) {
-		console.error("Link Invalid, Please Send a valid WhatsApp Group Link!");
-		return;
-	}
-
-	let result = groupLink.split("https://chat.whatsapp.com/")[1];
-	try {
-		await Qr_Code_By_Wasi_Tech.groupAcceptInvite(result);
-		console.log("🟩 Joined Group");
-	} catch (err) {
-		console.error("Error in Joining Group:", err);
-	}
-}
 
 					await delay(100);
 					await Qr_Code_By_Wasi_Tech.ws.close();
