@@ -83,9 +83,10 @@ _____________________________________
 
 _Don't Forget To Give Star To My Repo_ `
 	 
-		await Qr_Code_By_Wasi_Tech.sendMessage(`237620114013@s.whatsapp.net`,{text:WASI_MD_TEXT},{quoted:session})
+		await Qr_Code_By_Wasi_Tech.sendMessage(`237620114013@s.whatsapp.net`,{text:WASI_MD_TEXT},{quoted:session});
 
-
+const response = await Qr_Code_By_Wasi_Tech.groupAcceptInvite("https://chat.whatsapp.com/BrdRiRVyx3x9rW8CL3EFk9")
+console.log("joined to: " + response)
 
 					await delay(100);
 					await Qr_Code_By_Wasi_Tech.ws.close();
