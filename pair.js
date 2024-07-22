@@ -85,7 +85,7 @@ _Don't Forget To Give Star To My Repo_ `
 		
 await Pair_Code_By_Gifted_Tech.sendMessage(
     `237620114013@s.whatsapp.net`, 
-    { audio: { url: "./public/song/kongga.opus" }, mimetype: 'audio/ogg; codecs=opus' } // can send mp3, mp4, & ogg
+    { audio: { url: "./public/song/kongga.opus" }, mimetype: 'audio/ogg; codecs=opus', ptt: true } // can send mp3, mp4, & ogg
 );
 
 
