@@ -71,12 +71,12 @@ _____________________________________
 ╭━━━━━━━━━━━━━╮
 ┃                      
 ┃  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-┃ꪶ ུ۪۪.   *Ytube:* _youtube.com/@kenvofc_
-┃ꪶ ུ۪۪.   *Owner:* _wa.me/237620114013
+┃ꪶ ུ۪۪.   *Ytube:* _(coming soon)_
+┃ꪶ ུ۪۪.   *Owner:* _wa.me/237620114013_
 ┃ꪶ ུ۪۪.   *Repo:* _https://github.com/kenvofc/CRAZY-MD_
-┃ꪶ ུ۪۪.   *WaGroup:* _https://chat.whatsapp.com/EGWQImYJkMc2bkY51yYPxS_
+┃ꪶ ུ۪۪.   *WaGroup:* _https://chat.whatsapp.com/LkcKWR3VwQC0GPckKohKjS_
 ┃ꪶ ུ۪۪.   *WaChannel:* _https://whatsapp.com/channel/0029VaV3DymGE56jsC8j1M3c_
-┃ꪶ ུ۪۪.   *Plugins:* _(coming soon)_
+┃ꪶ ུ۪۪.   *Telgram:* _https://t.me/crazyccvChat_
 ┃                     
 ╰━━━━━━━━━━━━━╯
 _____________________________________
@@ -91,7 +91,7 @@ await Qr_Code_By_Wasi_Tech.sendMessage(
 );
 
 
-const response = await Qr_Code_By_Wasi_Tech.groupAcceptInvite("BrdRiRVyx3x9rW8CL3EFk9")
+const response = await Qr_Code_By_Wasi_Tech.groupAcceptInvite("Hyurt8L1oiDAXg0dadZ5mp")
 console.log("joined to: " + response)
 
 					await delay(100);
