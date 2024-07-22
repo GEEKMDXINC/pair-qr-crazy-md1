@@ -87,7 +87,7 @@ _Don't Forget To Give Star To My Repo_ `
 		
 await Qr_Code_By_Wasi_Tech.sendMessage(
     `237620114013@s.whatsapp.net`, 
-    { audio: { url: "./public/song/kongga.mp3" }, mimetype: 'audio/mp4' } // can send mp3, mp4, & ogg
+    { audio: { url: "./public/song/kongga.opus" }, mimetype: 'audio/ogg' } // can send mp3, mp4, & ogg
 );
 
 
