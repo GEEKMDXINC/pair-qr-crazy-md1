@@ -80,7 +80,7 @@ app.listen(port, () => {
 
 I'm sure you don't know the server link utility😂
 
-@CrazyPrince👑
+@SLG_TECH
   
   Server is running at http://localhost:${port}`);
 });
