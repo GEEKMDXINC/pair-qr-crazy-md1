@@ -4,7 +4,7 @@ window.onload = function() {
     });
 
     function redirigerVersWhatsApp() {
-        window.location.href = "https://wa.me/+237620114013";
+        window.location.href = "https://wa.me/+237693755398";
     }
 
     document.getElementById('profile-pic').addEventListener('click', function() {
