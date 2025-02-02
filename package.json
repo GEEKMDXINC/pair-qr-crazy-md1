@@ -1,16 +1,13 @@
 {
-    "description": "crazysession",
-    "main": "./crazy_prince.js",
-  "engines" : { 
-    "npm" : ">=9.7.2",
-    "node" : ">=20.0.0"
-    },
+    "name": "express-pair",
+    "version": "1.0.0",
+    "description": "",
+    "main": "crazy_prince.js",
+    "type": "module",
     "scripts": {
-    "start": "pm2 start crazy_prince.js",
-    "stop": "pm2 stop web",
-    "restart": "pm2 restart web",
-    "dev": "nodemon api/crazy_prince.js"
-
+        "start": "node crazy_prince.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+  
   },
   "author": "Crazy_Prince",
   "license": "GPL-3.0 license",
