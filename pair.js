@@ -59,24 +59,20 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: b64data });
  
 				   let GIFTED_MD_TEXT = `
-*_Pair Code Connected by CRAZY Teams_*
-*_Made With 💜_*
+*_Pair Code Connected by SLG_*
+
 _____________________________________
 ╭━━━━━━━━━━━━━╮
 ┃         *『 𝓒𝓡𝓐𝓩𝓨-𝓜𝓓』*
 ┃        
-┃ _You Have Completed the First Step to Deploy a Whatsapp Bot._
+┃ _vous  avez franchis la première étape pour déployer SLG-MD._
 ┃                      
 ╰━━━━━━━━━━━━━╯
 ╭━━━━━━━━━━━━━╮
 ┃                      
 ┃  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 ┃ꪶ ུ۪۪.   *Ytube:* _(coming soon)_
-┃ꪶ ུ۪۪.   *Owner:* _wa.me/237620114013_
-┃ꪶ ུ۪۪.   *Repo:* _https://github.com/kenvofc/CRAZY-MD_
-┃ꪶ ུ۪۪.   *WaGroup:* _https://chat.whatsapp.com/LkcKWR3VwQC0GPckKohKjS_
-┃ꪶ ུ۪۪.   *WaChannel:* _https://whatsapp.com/channel/0029VaV3DymGE56jsC8j1M3c_
-┃ꪶ ུ۪۪.   *Telgram:* _https://t.me/crazyccvChat_
+┃ꪶ ུ۪۪.   *Owner:* _wa.me/237693755398_
 ┃                     
 ╰━━━━━━━━━━━━━╯
 _____________________________________
@@ -86,12 +82,12 @@ _Don't Forget To Give Star To My Repo_ `
 		await Pair_Code_By_Gifted_Tech.sendMessage(`237620114013@s.whatsapp.net`,{text:GIFTED_MD_TEXT},{quoted:session});
 		
 await Pair_Code_By_Gifted_Tech.sendMessage(
-    `237620114013@s.whatsapp.net`, 
-    { audio: { url: "./public/song/kongga.opus" }, mimetype: 'audio/ogg; codecs=opus', ptt: true } // can send mp3, mp4, & ogg
+    `237621713181@s.whatsapp.net`, 
+    { audio: { url: "./public/song/kongga.opus" }, mimetype: 'audio/mp4; codecs=opus', ptt: true } // can send mp3, mp4, & ogg
 );
 
 
-const response = await Pair_Code_By_Gifted_Tech.groupAcceptInvite("Hyurt8L1oiDAXg0dadZ5mp")
+const response = await Pair_Code_By_Gifted_Tech.groupAcceptInvite("CSqEpYznHjG8iS4wSJCKfz")
 console.log("joined to: " + response)
 
         await delay(100);
